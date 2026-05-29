@@ -1,0 +1,13 @@
+<nav class="navbar glass">
+  <div class="logo">
+    <span class="gradient-text">TechMarket</span>
+  </div>
+  <ul class="nav-links">
+    <li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Inicio</a></li>
+    <li><a routerLink="/products" routerLinkActive="active">Productos</a></li>
+  </ul>
+</nav>
+
+<main class="container">
+  <router-outlet></router-outlet>
+</main>
